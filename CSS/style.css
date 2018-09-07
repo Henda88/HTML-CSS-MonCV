@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ss2f6f');
+  src:  url('fonts/icomoon.eot?ss2f6f#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ss2f6f') format('truetype'),
+    url('fonts/icomoon.woff?ss2f6f') format('woff'),
+    url('fonts/icomoon.svg?ss2f6f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-phone:before {
+  content: "\20";
+}
+.icon-location:before {
+  content: "\40";
+}
+.icon-calendar:before {
+  content: "\50";
+}
+.icon-display:before {
+  content: "\60";
+}
+.icon-users:before {
+  content: "\70";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-trophy:before {
+  content: "\80";
+}
+.icon-briefcase:before {
+  content: "\90";
+}
+.icon-truck:before {
+  content: "\25";
+}
+.icon-spell-check:before {
+  content: "\35";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
